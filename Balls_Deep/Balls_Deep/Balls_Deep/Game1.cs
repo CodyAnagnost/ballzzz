@@ -72,6 +72,10 @@ namespace Balls_Deep
 
             // TODO: Add your update logic here
 
+            MouseState ms = Mouse.GetState();
+
+            Vector2 mousePoint = new Vector2(ms.X, ms.Y);
+
             base.Update(gameTime);
         }
 
